@@ -439,7 +439,7 @@ body .container .card .box:before {
   left: 0;
   width: 50%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.03);
+  
 }
 
 body .container .card .box .content {
@@ -447,19 +447,11 @@ body .container .card .box .content {
   text-align: center;
 }
 
-body .container .card .box .content h2 {
-  position: absolute;
-  top: -10px;
-  right: 30px;
-  font-size: 8rem;
-  color: rgba(255, 255, 255, 0.1);
-}
 
 body .container .card .box .content h3 {
   font-size: 1.8rem;
   color: #fff;
-  z-index: 1;
-  transition: 0.5s;
+ 
   margin-bottom: 15px;
 }
 
@@ -467,8 +459,7 @@ body .container .card .box .content p {
   font-size: 1rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.9);
-  z-index: 1;
-  transition: 0.5s;
+  
 }
 
 body .container .card .box .content a {
@@ -484,7 +475,7 @@ body .container .card .box .content a {
   transition: 0.5s;
 }
 body .container .card .box .content a:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  
   background: #fff;
   color: #000;
 }
