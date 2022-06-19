@@ -377,6 +377,8 @@ p{
   font-family: "Poppins", sans-serif;
 }
 
+
+
 body .container {
   display: flex;
   justify-content: center;
@@ -384,7 +386,9 @@ body .container {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 40px 0;
+  
 }
+
 
 body .container .card {
   position: relative;
@@ -412,7 +416,12 @@ body .container .card:nth-child(3) .box .content a {
 body .container .card:nth-child(4) .box .content a {
     background: #4f47de;
   }
-
+  body .container .card:nth-child(5) .box .content a {
+    background: #bbde47;
+  }
+  body .container .card:nth-child(6) .box .content a {
+    background: #de8347;
+  }
 body .container .card .box {
   position: absolute;
   top: 15px;

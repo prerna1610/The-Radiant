@@ -33,15 +33,96 @@
         <a href="#contact">Contact</a>
       </li>
       <li class="topnav-right">
-        <a href="#signup">Sign Up</a>
+        <a href="#login" data-bs-toggle="modal"
+        data-bs-target="#loginModal">Log In</a>
       </li>
       <li class="topnav-right">
-        <a href="#signin">Sign In</a>
+        <a href="#signup" data-bs-toggle="modal"
+        data-bs-target="#signupModal">Sign Up</a>
       </li>
       <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">☰</a></li>
 
     </ul>
   </nav>
+  <!-- LogIn Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="loginModalLabel">LogIn to Creative Learning Platform</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">LogIn</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SignUp Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="signupModalLabel">Get an Account!!</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name"
+                                        aria-label="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name"
+                                        aria-label="Last name">
+                                </div>
+                            </div>
+                            <div class="input-group mb-3 my-4">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create an Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
   <!-------------------------------------------Carousel----------------------------------------------------->
 
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -85,6 +166,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <div class="b-example-divider"></div>
 
   <!-- --------------------------------------About Us------------------------------------------------------------------ -->
   <main class="main" id="about">
@@ -222,7 +304,7 @@
           <p>
             Start booking to be in this batch!!!
           </p>
-          <a href="#">Book now</a>
+          <a href="#">Apply Now</a>
         </div>
       </div>
     </div>
@@ -234,7 +316,7 @@
           <p>
             Start booking to be in this batch!!!
           </p>
-          <a href="#">Book now</a>
+          <a href="#">Apply Now</a>
         </div>
       </div>
     </div>
@@ -246,7 +328,7 @@
           <p>
             Start booking to be in this batch!!!
           </p>
-          <a href="#">Book now</a>
+          <a href="#">Apply Now</a>
         </div>
       </div>
     </div>
@@ -257,7 +339,29 @@
           <p>
             Start booking to be in this batch!!!
           </p>
-          <a href="#">Book now</a>
+          <a href="#">Apply Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="box">
+        <div class="content">
+          <h3>Game Development</h3>
+          <p>
+            Start booking to be in this batch!!!
+          </p>
+          <a href="#">Apply Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="box">
+        <div class="content">
+          <h3>Data Science</h3>
+          <p>
+            Start booking to be in this batch!!!
+          </p>
+          <a href="#">Apply Now</a>
         </div>
       </div>
     </div>
